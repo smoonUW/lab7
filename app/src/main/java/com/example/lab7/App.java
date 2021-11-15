@@ -37,7 +37,6 @@ public class App extends Application {
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel1);
             manager.createNotificationChannel(channel2);
-            Log.i("chanmake", "channel 2 is created?");
         }
     }
 }
